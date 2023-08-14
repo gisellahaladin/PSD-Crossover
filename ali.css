@@ -1,12 +1,16 @@
 .main {
   min-width: 1440px;
 }
+
 .container-background {
   background-image: url("./img/footer.png");
-  width: 1326px;
+  width: 100vw;
   height: 525px;
   display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .left-content {
   width: 497px;
   height: 500px;
@@ -17,15 +21,17 @@
   margin-left: 20px;
   padding-top: 80px;
 }
+
 .left-content-chef-text {
   margin-top: 30px;
 }
+
 .left-content-chef-end {
   padding-top: 220px;
 }
 
 
-.right-content-common{
+.right-content-common {
   height: 300px;
   width: 497px;
   height: 500px;
@@ -47,7 +53,8 @@
   margin-left: 220px;
   flex-direction: column;
 }
-.right-content-text{
+
+.right-content-text {
   display: flex;
   margin: 10px;
   width: 90%;
@@ -57,6 +64,6 @@
 }
 
 
-.footer-right{
+.footer-right {
   padding-left: 320px;
 }
