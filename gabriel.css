@@ -1,0 +1,132 @@
+#section2 {
+    background-image: linear-gradient(180deg, #2b241d, #1f1a15)
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+#title tspan {
+    white-space:pre;
+    
+}
+.a{
+    font-size: 25px;line-height: 38px;
+    text-transform: uppercase;fill: #b09165;
+    font-weight: 700;
+    font-family: "BebasNeueBold", "Bebas Neue"}
+
+#subtitle {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#lor{
+    color: #b09165;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.myhotdogs {
+    display: flex;
+    justify-content: center;
+}
+
+.select {
+    color: #b09165;
+    border: #b09165 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.select img {
+    width: 450px;
+}
+
+.info h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.info p {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    line-height: 30px;
+    /* width: 320px; */
+}
+
+
+.botones {
+    display: flex;
+    justify-content: center;
+    padding: 15px ;
+}
+
+.order-bt {
+    background-color: #bf2222;
+    color: white;
+    width: 188px;
+    height: 54px;
+}
+
+.order-bt:hover {
+    background-color: #ff0400;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-color: white ;
+    border: 10px;
+}
+
+#more {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container-ga {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 35px 40px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "img-1 img-2"
+      "img-1 img-3";
+  }
+  
+  .img-1 {
+     grid-area: img-1;
+    background: url(./bilder-gabriel/Burger\ Image.svg); 
+    width: 585px;
+    height: 422px;
+    padding: 50px;
+}
+     
+  .img-2 {
+     grid-area: img-2; 
+     background: url(./bilder-gabriel/Image.svg);
+     width: 582px;
+     height: 192px;
+     padding: 30px;
+    }
+  
+  .img-3 {
+     grid-area: img-3; 
+    background: url(./bilder-gabriel/Image2.svg);
+    width: 582px;
+    height: 192px;
+    padding: 30px;
+}
+  
