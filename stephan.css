@@ -1,0 +1,185 @@
+.section1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.section1 {
+    background-image: url(./Pictures-Stephan/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    background-color: rgb(39, 33, 26);
+
+}
+
+.header-St {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px 5px 40px;
+}
+
+.nav-St {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-complete-St {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: rgb(176, 145, 101);
+    font-size: 20px;
+}
+
+.delivery-area-St {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.delivery-text-St {
+    font-size: 15px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.phone-St {
+    height: 40px;
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nav-links a {
+    color: rgb(176, 145, 101);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* LOGO */
+.logo-St {
+    font-size: 32px;
+    margin: 20px 15px;
+}
+
+/* NAVBAR MENU */
+.menu-St {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu-St li:hover {
+    background-color: rgb(116, 95, 68);
+    transition: 0.3s ease;
+    opacity: 80%;
+}
+
+.menu-St li {
+    padding: 5px 14px;
+    ;
+}
+
+/* DROPDOWN MENU */
+.menu-St {
+    position: relative;
+}
+
+.dropdown {
+    background-color: rgb(116, 95, 68);
+    padding: 1em 0;
+    position: absolute;
+    /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+
+}
+
+.dropdown li+li {
+    margin-top: 10px;
+}
+
+.dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+}
+
+.dropdown li:hover {
+    background-color: rgb(116, 95, 68);
+}
+
+.Menu:hover .dropdown {
+    display: block;
+}
+
+/* Hero Section */
+
+.text-container-St {
+    display: flex;
+
+
+}
+
+.hero-section-St {
+    padding: 200px;
+}
+
+.text-container-St {
+    width: 100%;
+    display: flex;
+    padding: 0 200px;
+
+
+
+}
+
+.hero-description-St {
+    display: flex;
+
+}
+
+.Description-right-St {
+    display: flex;
+    padding-top: 20px;
+
+}
+
+.desc-text-left {
+    padding-bottom: 10px;
+    color: rgb(116, 95, 68);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.dollar-desc-St {
+    height: 40px;
+    padding-right: 30px;
+    padding-left: 40px;
+}
+
+.number-desc-St {
+    height: 100px;
+}
+
+
+.bottom-description-St {
+    display: flex;
+    padding-top: 10px;
+}
+
+.hero-img {
+    width: 600px;
+    height: 300px;
+    margin-left: 100px;
+}
