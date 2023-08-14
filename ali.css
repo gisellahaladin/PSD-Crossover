@@ -12,13 +12,14 @@
 }
 
 .left-content {
-  width: 497px;
+  width: 670px;
   height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   margin-left: 20px;
+  margin-right: 500px;
   padding-top: 80px;
 }
 
@@ -40,7 +41,7 @@
   justify-content: center;
   color: white;
   flex-direction: column;
-  padding-right: 50px;
+  padding-right: 10px;
 }
 
 .right-content {
@@ -65,5 +66,6 @@
 
 
 .footer-right {
-  padding-left: 320px;
+  padding-left: 300px;
+  padding-right: 50px;
 }
